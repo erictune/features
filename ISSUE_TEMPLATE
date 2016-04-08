@@ -1,0 +1,25 @@
+Thanks for wanting to add a feature to Kubernetes!  You will be responsible for guiding
+your feature through completion, and asking the right people for approvals.  You can use the checkboxes below to
+track your progress.  You can delete the text above once you have read it.  Please keep the checklist.
+
+- [ ] Propose your feature.  See [Advice for proposing features].  
+   - Start with a < 1 page description in an issue comment below this.
+   - Request an initial feature review by mentioning @kubernetes/new-feature-reviewers.  
+   - Keep pinging that every few days if you don't get a response.
+   - If the feature is simple, the approver might ask you to [write a longer design doc](writing_longer_design_docs.md).
+   - If there is a design doc, that goes in a PR under github.com/kubernetes/kubernetes/docs/proposals.  Link that PR on this issue.
+   - Once you get LGTM from a feature reviewer, you can check this checkbox, and the reviewer will apply the "feature-lgtm" label.
+- [ ] Write code and tests get them merged.
+      - Use as many PRs as you need.  Write tests in the same or different PRs, as is convenient for you.
+      - As each PR is merged, add a comment to this issue referencing the PRs.  Code goes in the http://github.com/kubernetes/kubernetes repository,
+        and sometimes http://github.com/kubernetes/contrib, or other repos.
+      - When you are done with the code, apply the "code-complete" label.
+      - When the feature has user docs, please add a comment mentioning @kubernetes/feature-complete-reviewers and they will
+        check that the code matches the proposed feature and design, and that everything is done, and that there is adequate
+        testing.  They won't do detailed code review: that already happened when your PRs were reviewed.
+        When that is done, you can check this box and the reviewer will apply the "code-complete" label.
+- [ ] Write user docs and get them merged in.
+     - User docs go into http://github.com/kubernetes/kubernetes.github.io.
+     - When the feature has user docs, please add a comment mentioning @kubernetes/docs-reviews.
+     - When you get LGTM, you can check this checkbox, and the reviewer will apply the "docs-complete" label.
+- [ ] And so on...
