@@ -9,6 +9,9 @@ track your progress.  You can delete the text above once you have read it.  Plea
    - If the feature is simple, the approver might ask you to [write a longer design doc](writing_longer_design_docs.md).
    - If there is a design doc, that goes in a PR under github.com/kubernetes/kubernetes/docs/proposals.  Link that PR on this issue.
    - Once you get LGTM from a feature reviewer, you can check this checkbox, and the reviewer will apply the "feature-lgtm" label.
+- [ ] If your code changes an API (`/pkg/apis/...`), or it changes the environment that a container runs in, then it needs
+      an API review.  Describe the proposed API in a comment below (if small change) or create PR with the changes, and
+      then add a comment mentioning @kubernetes/api-reviewers. 
 - [ ] Write code and tests get them merged.
       - Use as many PRs as you need.  Write tests in the same or different PRs, as is convenient for you.
       - As each PR is merged, add a comment to this issue referencing the PRs.  Code goes in the http://github.com/kubernetes/kubernetes repository,
@@ -22,4 +25,4 @@ track your progress.  You can delete the text above once you have read it.  Plea
      - User docs go into http://github.com/kubernetes/kubernetes.github.io.
      - When the feature has user docs, please add a comment mentioning @kubernetes/docs-reviews.
      - When you get LGTM, you can check this checkbox, and the reviewer will apply the "docs-complete" label.
-- [ ] And so on...
+- [ ] Done!
