@@ -28,25 +28,26 @@ track your progress.  You can delete the text above once you have read it.  Plea
 More advice:
 
 Design
- - If the feature is simple, the approver might ask you to [write a longer design doc](writing_longer_design_docs.md).
- - If there is a design doc, that goes in a PR under github.com/kubernetes/kubernetes/docs/proposals.  Link that PR on this issue.
- - Once you get LGTM from a feature reviewer, you can check this checkbox, and the reviewer will apply the "feature-lgtm" label.
- - [ ] If your code changes an API (`/pkg/apis/...`), it needs an API review.
+   - If the feature is simple, the approver might ask you to [write a longer design doc](writing_longer_design_docs.md).
+   - If there is a design doc, that goes in a PR under github.com/kubernetes/kubernetes/docs/proposals.  Link that PR on this issue.
+   - Once you get LGTM from a feature reviewer, you can check this checkbox, and the reviewer will apply the "feature-lgtm" label.
+   -  If your code changes an API (`/pkg/apis/...`), it needs an API review.
  
 Coding
-       - Use as many PRs as you need.  Write tests in the same or different PRs, as is convenient for you.
-       - As each PR is merged, add a comment to this issue referencing the PRs.  Code goes in the http://github.com/kubernetes/kubernetes repository,
+  - Use as many PRs as you need.  Write tests in the same or different PRs, as is convenient for you.
+  - As each PR is merged, add a comment to this issue referencing the PRs.  Code goes in the http://github.com/kubernetes/kubernetes repository,
         and sometimes http://github.com/kubernetes/contrib, or other repos.
-       - When you are done with the code, apply the "code-complete" label.
-       - When the feature has user docs, please add a comment mentioning @kubernetes/feature-complete-reviewers and they will
+  - When you are done with the code, apply the "code-complete" label.
+  - When the feature has user docs, please add a comment mentioning @kubernetes/feature-complete-reviewers and they will
         check that the code matches the proposed feature and design, and that everything is done, and that there is adequate
         testing.  They won't do detailed code review: that already happened when your PRs were reviewed.
         When that is done, you can check this box and the reviewer will apply the "code-complete" label.
+
 Docs
-    - [ ] Write user docs and get them merged in.
-       - User docs go into http://github.com/kubernetes/kubernetes.github.io.
-       - When the feature has user docs, please add a comment mentioning @kubernetes/docs-reviews.
-       - When you get LGTM, you can check this checkbox, and the reviewer will apply the "docs-complete" label.
+  - [ ] Write user docs and get them merged in.
+  - User docs go into http://github.com/kubernetes/kubernetes.github.io.
+  - When the feature has user docs, please add a comment mentioning @kubernetes/docs-reviews.
+  - When you get LGTM, you can check this checkbox, and the reviewer will apply the "docs-complete" label.
 
     
 
